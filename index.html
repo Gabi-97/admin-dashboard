@@ -5,23 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="search-container">
-                <label for="search-field"><img src="" alt="search image"></label>
+                <label for="search-field"><img class="right" src="./icons/magnify.svg" alt="search image"></label>
                 <input type="text" name="search-field" id="search-field">
             </div>
             <div class="userinfo-container">
-                <img src=" # " alt="bell image">
-                <img src=" # " alt="profile picture">
+                <img class="right" src="./icons/bell-ring-outline.svg" alt="bell image">
+                <img src="./pictures/9080026.jpg" class="ppf" alt="profile picture">
                 <p>Morgan Oakley</p>
             </div>
             <div class="greeting-container">
-                <img src=" # " alt="profile picture">
-                <p>Hi there,</p>
-                <p>Morgan Oakley (@morgan)</p>
+                <img src="./pictures/9080026.jpg" class="ppf" alt="profile picture">
+                <div> 
+                    <p>Hi there, </p>
+                    <p>Morgan Oakley (@morgan)</p>
+                </div>
             </div>
             <div class="buttons-container">
                 <button>New</button>
@@ -30,58 +33,59 @@
             </div>
         </div>
 
-        <!-- <div class="sidebar">
+        <div class="sidebar"> 
             <div class="logo">
-                <img src=" # " alt="logo">
+                <img src="./icons/apps.svg" alt="logo">
                 <h3>Dashboard</h3>
             </div>
             <div class="main-links">
                 <ul>
                     <li>
-                        <img src=" # " alt="home">
-                        <p>Home</p>
+                       <img class="sidebar-icons" src="./icons/home.svg" alt="home">
+                       <span>Home</span>
+                        
                     </li>
                     <li>
-                        <img src=" # " alt="profile">
-                        <p>Profile</p>
+                        <img class="sidebar-icons" src="./icons/card-account-details-outline.svg" alt="profile">
+                        <span>Profile</span>
                     </li>
                     <li>
-                        <img src=" # " alt="messages">
-                        <p>Messages</p>
+                        <img class="sidebar-icons" src="./icons/message-reply.svg" alt="messages">
+                        <span>Messages</span>
                     </li>
                     <li>
-                        <img src="" alt="history">
-                        <p>History</p>
+                        <img class="sidebar-icons" src="./icons/clock-time-three.svg" alt="history">
+                        <span>History</span>
                     </li>
                     <li>
-                        <img src="" alt="tasks">
-                        <p>Tasks</p>
+                        <img class="sidebar-icons" src="./icons/note-multiple.svg" alt="tasks">
+                        <span>Tasks</span>
                     </li>
                     <li>
-                        <img src="" alt="communities">
-                        <p>Communities</p>
+                        <img class="sidebar-icons" src="./icons/account-group.svg" alt="communities">
+                        <span>Communities</span>
                     </li>
                 </ul>
             </div>
             <div class="secondary-links">
                 <ul>
                     <li>
-                        <img src="" alt="settings">
-                        <p>Settings</p>
+                        <img class="sidebar-icons" src="./icons/cog.svg" alt="settings">
+                        <span>Settings</span>
                     </li>
                     <li>
-                        <img src="" alt="support">
-                        <p>Support</p>
+                        <img class="sidebar-icons" src="./icons/help-box.svg" alt="support">
+                        <span>Support</span>
                     </li>
                     <li>
-                        <img src="" alt="privacy">
-                        <p>Privacy</p>
+                        <img class="sidebar-icons" src="./icons/shield-check.svg" alt="privacy">
+                        <span>Privacy</span>
                     </li>
                 </ul>
             </div>
-        </div> -->
+        </div>
 
-        <!-- <div class="content">
+        <div class="content">
             <div class="projects-container">
                 <h1>Your Projects</h1>
                 <div class="project">
@@ -179,7 +183,7 @@
                     <p class="trend-name">No Traffic Maker</p>
                 </div>            
             </div>
-        </div> -->
+        </div> 
     </div>
 </body>
 </html>
